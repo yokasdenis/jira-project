@@ -1,0 +1,74 @@
+body{
+    background-color: aquamarine;
+}
+section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    height: 600px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    min-width: 300px;
+    border-radius: 15px;
+    background-color: aliceblue;
+    gap: 10px;
+    height: 100%;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+input{
+    height: 30px;
+    font-size: large;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px;
+    gap: 10px;
+}
+.card{
+    background-color: rgb(172, 187, 249);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px px gray;
+    height: 60px;
+    align-items: center;
+}
+.card>b{
+    text-wrap: wrap;
+    word-wrap: break-word;
+    width: 230px;
+}
+.btn{
+    background-color: aqua;
+    border: none;
+    border-radius: 0px 0px 5px 5px;
+    height: 25px;
+    transition: all 0.2s linear;
+}
+.btn:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+.btn1{
+    background-color: aliceblue;
+    height: 20px;
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.2s linear;
+}
+.btn1:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
